@@ -15,7 +15,7 @@ function yHandler(){
 	var y = yOffset + window.innerHeight;
 	
 	if(y >= contentHeight && contentHeight < 6000){
-		// Ajax call to get more dynamic data goes here
+		
 		wrap.innerHTML += '<div class="newData">Deep down inside you know you have no limits. There is nothing that can stop you.'+
 		' You are an indesructible force!! Check This Out!!!</div></div>';
 		wrap.innerHTML += '<div class="newData1">1Lets go, take it to the top do '+
